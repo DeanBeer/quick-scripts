@@ -1,5 +1,48 @@
 #!/usr/bin/env ruby
 
+module NRB
+  module PickList
+
+    class Delivery
+
+      include Comparable
+      include Enumerable
+
+      attr_accessor :line_items, :route, :ship_date
+
+      class LineItem
+
+        include Comparable
+
+        attr_accessor :amount, :count, :product
+
+        def <=>(other)
+          product <=> other.product
+        end
+
+      end
+
+
+      def <=>(other)
+        ship_date <=> other.ship_date
+      end
+
+
+      def each(&block)
+        line_items.each(&block)
+      end
+
+
+      def initialize
+        @line_items = []
+      end
+
+    end
+
+  end
+end
+
+
 require 'csv'
 
 ship_dates = { }
@@ -7,6 +50,7 @@ total = 0
 
 ARGV.each do |arg|
   row_num = -1
+
   CSV.foreach(arg) do |row|
     row_num += 1
     next if row_num == 0
