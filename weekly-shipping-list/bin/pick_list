@@ -1,0 +1,19 @@
+#!/usr/bin/env ruby
+
+$:.unshift(File.join( File.dirname(__FILE__), '..'))
+require 'nrb'
+
+parser = NRB::PickList::ReportParser.new
+tallier = NRB::PickList::ReportTallier.new
+
+ARGV.each do |arg|
+  results = parser.parse str: File.read(arg)
+  tallier.tally results
+end
+
+pick_list = NRB::PickList.new report: tallier.results
+
+puts pick_list.routes
+
+#presenter = NRB::PickList::ReportPresenter.new results: tallier.results
+#presenter.present

@@ -1,4 +1,8 @@
-"Ship Date", "Route", "Product", "Qty", "Amount"
-"3/20/2014", "Houston Daytime", "Ale:Bottles:Case:Dammit Jim!", "1", "$82.00"
-"3/20/2014", "Houston Daytime", "Ale:Bottles:Case:Skylight", "2", "$164.00"
-"3/20/2014", "Houston Daytime", "Ale:Keg:Kadigan 1/4 BBL", "2", "$170.00"
+Ship Date,Route,Product,Qty,Amount
+3/20/2014,,,
+3/20/2014,Houston Daytime,Ale:Bottles:Case:Dammit Jim!,1,82.00
+3/20/2014,Houston Daytime,Ale:Bottles:Case:Skylight,2,170.00
+3/20/2014,Houston Daytime,Ale:Bottles:Case:Skylight,-2,-170.00
+3/20/2014,Houston Daytime,Ale:Bottles:Case:Skylight,5,410.00
+3/20/2014,Houston Daytime,Ale:Keg:Kadigan 1/4 BBL,2,170.00
+3/20/2014,B/CS Daytime,Ale:Keg:Kadigan 1/4 BBL,2,170.00
