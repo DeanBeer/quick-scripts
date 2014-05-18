@@ -2,26 +2,18 @@ module NRB
   class PickList
     class ReportPresenter
 
-      def initialize(pick_list: [])
-        @pick_list = pick_list
-        accumulate_results
-      end
-
-
-      def present
-        if @pick_list.empty?
+      def present(pick_list)
+        if pick_list.results.empty?
           puts 'Nothing to present'
           return
         end
-        # Route
-        # Brand  1/2  1/4  1/6  Case
-      end
-
-    private
-
-      def accumulate_results
-        @routes = { }
-        @pick_list.each do |result|
+        pick_list.sort.each do |route,brands|
+          printf "%-35s  %3s  %3s  %3s  %4s\n", route, "1/2", "1/4", "1/6", "Case"
+          brands.sort.each do |brand,mix|
+            next if mix.empty?
+            printf "%35s  %3s  %3s  %3s  %4s\n", brand, mix.half, mix.quarter, mix.sixtel, mix.kase
+          end
+          puts
         end
       end
 

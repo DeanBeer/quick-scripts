@@ -1,8 +1,123 @@
-Ship Date,Route,Product,Qty,Amount
-3/20/2014,,,
-3/20/2014,Houston Daytime,Ale:Bottles:Case:Dammit Jim!,1,82.00
-3/20/2014,Houston Daytime,Ale:Bottles:Case:Skylight,2,170.00
-3/20/2014,Houston Daytime,Ale:Bottles:Case:Skylight,-2,-170.00
-3/20/2014,Houston Daytime,Ale:Bottles:Case:Skylight,5,410.00
-3/20/2014,Houston Daytime,Ale:Keg:Kadigan 1/4 BBL,2,170.00
-3/20/2014,B/CS Daytime,Ale:Keg:Kadigan 1/4 BBL,2,170.00
+"Ship Date","Route","Item","Qty","Amount"
+,,,,
+"5/12/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",1,85.00
+"5/12/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",1,12.96
+"5/12/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",-1,-12.96
+"5/12/2014","B/CS Daytime","Ale:Kegs:Whipsaw Double IPA 1/2bbl",1,225.00
+"5/12/2014","B/CS Daytime","Ale:Kegs:Whipsaw Double IPA 1/2bbl",1,41.51
+"5/12/2014","B/CS Daytime","Ale:Kegs:Whipsaw Double IPA 1/2bbl",-1,-41.51
+"5/11/2014","Houston Morning","Ale:Bottles:Case - Dammit Jim! 12x22oz",2,102.00
+"5/11/2014","Houston Morning","Ale:Bottles:Case - Dammit Jim! 12x22oz",2,20.67
+"5/11/2014","Houston Morning","Ale:Bottles:Case - Dammit Jim! 12x22oz",-2,-20.67
+"5/11/2014","Houston Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,51.00
+"5/11/2014","Houston Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,9.00
+"5/11/2014","Houston Morning","Ale:Bottles:Case - Kadigan 12x22oz",-1,-9.00
+"5/13/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",1,51.00
+"5/13/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",1,9.47
+"5/13/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",-1,-9.47
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,26.50
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,7.79
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",-1,-7.79
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,115.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",-1,-14.57
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,26.50
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,7.79
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",-1,-7.79
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",3,79.50
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",3,23.37
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",-3,-23.37
+"5/14/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",3,255.00
+"5/14/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",3,38.89
+"5/14/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",-3,-38.89
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Dammit Jim! 12x22oz",3,153.00
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Dammit Jim! 12x22oz",3,31.00
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Dammit Jim! 12x22oz",-3,-31.00
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,51.00
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,9.00
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Kadigan 12x22oz",-1,-9.00
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Skylight 12x22oz",2,102.00
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Skylight 12x22oz",2,18.94
+"5/14/2014","Houston Morning","Ale:Bottles:Case - Skylight 12x22oz",-2,-18.94
+"5/14/2014","Houston Daytime","Ale:Kegs:Dammit Jim 1/4 bbl",1,85.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Dammit Jim 1/4 bbl",1,12.81
+"5/14/2014","Houston Daytime","Ale:Kegs:Dammit Jim 1/4 bbl",-1,-12.81
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,115.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",-1,-14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,115.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",-1,-14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",1,85.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",1,12.96
+"5/14/2014","Houston Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",-1,-12.96
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,26.50
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,7.79
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",-1,-7.79
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,115.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",-1,-14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Dammit Jim 1/4 bbl",1,85.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Dammit Jim 1/4 bbl",1,12.81
+"5/14/2014","Houston Daytime","Ale:Kegs:Dammit Jim 1/4 bbl",-1,-12.81
+"5/14/2014","Houston Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",1,85.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",1,12.96
+"5/14/2014","Houston Daytime","Ale:Kegs:Skylight Dunkelweizen 1/4 bbl",-1,-12.96
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,115.00
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,14.57
+"5/14/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",-1,-14.57
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,26.50
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",1,7.79
+"5/14/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",-1,-7.79
+"5/15/2014","B/CS Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,51.00
+"5/15/2014","B/CS Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,9.00
+"5/15/2014","B/CS Morning","Ale:Bottles:Case - Kadigan 12x22oz",-1,-9.00
+"5/15/2014","B/CS Morning","Ale:Bottles:Case - Skylight 12x22oz",1,51.00
+"5/15/2014","B/CS Morning","Ale:Bottles:Case - Skylight 12x22oz",1,9.47
+"5/15/2014","B/CS Morning","Ale:Bottles:Case - Skylight 12x22oz",-1,-9.47
+"5/15/2014","B/CS Daytime","Ale:Cans:Can Case Dammit Jim",9,238.50
+"5/15/2014","B/CS Daytime","Ale:Cans:Can Case Dammit Jim",9,70.11
+"5/15/2014","B/CS Daytime","Ale:Cans:Can Case Dammit Jim",-9,-70.11
+"5/15/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",1,51.00
+"5/15/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",1,9.47
+"5/15/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",-1,-9.47
+"5/15/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",15,397.50
+"5/15/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",15,116.85
+"5/15/2014","Houston Daytime","Ale:Cans:Can Case Dammit Jim",-15,-116.85
+"5/15/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/6 bbl",1,60.00
+"5/15/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/6 bbl",1,8.52
+"5/15/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/6 bbl",-1,-8.52
+"5/15/2014","B/CS Evening","Ale:Cans:Can Case Dammit Jim",1,26.50
+"5/15/2014","B/CS Evening","Ale:Cans:Can Case Dammit Jim",1,7.79
+"5/15/2014","B/CS Evening","Ale:Cans:Can Case Dammit Jim",-1,-7.79
+"5/15/2014","B/CS Evening","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,115.00
+"5/15/2014","B/CS Evening","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,14.57
+"5/15/2014","B/CS Evening","Ale:Kegs:Whipsaw Double IPA 1/4bbl",-1,-14.57
+"5/15/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/2 bbl",1,165.00
+"5/15/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/2 bbl",1,25.49
+"5/15/2014","B/CS Daytime","Ale:Kegs:Skylight Dunkelweizen 1/2 bbl",-1,-25.49
+"5/15/2014","B/CS Daytime","Ale:Cans:Can Case Dammit Jim",1,26.50
+"5/15/2014","B/CS Daytime","Ale:Cans:Can Case Dammit Jim",1,7.56
+"5/15/2014","B/CS Daytime","Ale:Cans:Can Case Dammit Jim",-1,-7.56
+"5/16/2014","Houston Morning","Ale:Cans:Can Case Dammit Jim",3,79.50
+"5/16/2014","Houston Morning","Ale:Cans:Can Case Dammit Jim",3,22.68
+"5/16/2014","Houston Morning","Ale:Cans:Can Case Dammit Jim",-3,-22.68
+"5/15/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,115.00
+"5/15/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",1,20.76
+"5/15/2014","Houston Daytime","Ale:Kegs:Whipsaw Double IPA 1/4bbl",-1,-20.76
+"5/16/2014","B/CS Morning","Ale:Cans:Can Case Dammit Jim",9,238.50
+"5/16/2014","B/CS Morning","Ale:Cans:Can Case Dammit Jim",9,68.04
+"5/16/2014","B/CS Morning","Ale:Cans:Can Case Dammit Jim",-9,-68.04
+"5/16/2014","B/CS Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,51.00
+"5/16/2014","B/CS Morning","Ale:Bottles:Case - Kadigan 12x22oz",1,9.00
+"5/16/2014","B/CS Morning","Ale:Bottles:Case - Kadigan 12x22oz",-1,-9.00
+"5/16/2014","B/CS Morning","Ale:Bottles:Case - Skylight 12x22oz",1,51.00
+"5/16/2014","B/CS Morning","Ale:Bottles:Case - Skylight 12x22oz",1,9.47
+"5/16/2014","B/CS Morning","Ale:Bottles:Case - Skylight 12x22oz",-1,-9.47
+"5/16/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",1,51.00
+"5/16/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",1,9.47
+"5/16/2014","B/CS Daytime","Ale:Bottles:Case - Skylight 12x22oz",-1,-9.47
+"5/16/2014","B/CS Daytime","Ale:Bottles:Case - Kadigan 12x22oz",1,51.00
+"5/16/2014","B/CS Daytime","Ale:Bottles:Case - Kadigan 12x22oz",1,9.00
+"5/16/2014","B/CS Daytime","Ale:Bottles:Case - Kadigan 12x22oz",-1,-9.00
+"Total",,,,3994.50

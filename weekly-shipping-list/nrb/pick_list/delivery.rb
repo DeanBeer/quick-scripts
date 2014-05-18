@@ -2,9 +2,13 @@ module NRB
   class PickList
     class Delivery
 
+      extend Forwardable
       include Comparable
 
       attr_accessor :amount, :product, :quantity, :route, :ship_date
+
+      def_delegators :@product, :bottle?, :brand, :can?, :case?, :half?,
+                     :keg?, :package, :package_size, :quarter?, :sixtel?
 
       def +(other)
         raise ArgumentError "Trying to add different deliveries" unless eq(other)
