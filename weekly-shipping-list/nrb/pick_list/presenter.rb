@@ -1,6 +1,6 @@
 module NRB
   class PickList
-    class ReportPresenter
+    class Presenter
 
       def present(pick_list)
         if pick_list.results.empty?

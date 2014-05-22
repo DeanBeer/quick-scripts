@@ -2,7 +2,7 @@ require 'csv'
 
 module NRB
   class PickList
-    class ReportParser
+    class Parser
 
       def initialize( name_parser_class: NRB::PickList::ProductNameParser,
                       reader: CSV,

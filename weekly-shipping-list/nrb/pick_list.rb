@@ -5,23 +5,31 @@ module NRB
     include Enumerable
 
     autoload :Delivery, 'pick_list/delivery'
+    autoload :Mix, 'pick_list/mix'
     autoload :ProductNameParser, 'pick_list/product_name_parser'
-    autoload :ReportParser, 'pick_list/report_parser'
-    autoload :ReportPresenter, 'pick_list/report_presenter'
-    autoload :ReportTallier, 'pick_list/report_tallier'
+    autoload :Parser, 'pick_list/parser'
+    autoload :Presenter, 'pick_list/presenter'
+    autoload :Tallier, 'pick_list/tallier'
 
     attr :list
     attr_accessor :parser, :presenter, :tallier
+
+    def deliveries_for(route: nil, brand: nil)
+      route.nil? ? deliveries_for_brand(brand) : deliveries_for_route(route)
+    end
+
 
     def each(&block)
       list.each(&block)
     end
 
+
     def initialize
-      @parser = ReportParser.new
-      @presenter = ReportPresenter.new
-      @tallier = ReportTallier.new
+      @parser = Parser.new
+      @presenter = Presenter.new
+      @tallier = Tallier.new
     end
+
 
     def parse(str: string)
       parser.parse str: str
@@ -51,38 +59,27 @@ module NRB
 
   private
 
-    class Mix < Struct.new(:half, :quarter, :sixtel, :kase)
-
-      def initialize(half=0, quarter=0, sixtel=0, kase=0)
-        self.half = half
-        self.quarter = quarter
-        self.sixtel = sixtel
-        self.kase = kase
-      end
-
-      def empty?
-        half + quarter + sixtel + kase == 0
-      end
-
-    end
-
-
     def build_list
       # route, brand, 1/2s, 1/4s, 1/6s, cases
       @list = {}
       routes.each do |route|
         @list[route] = results.inject({}) do |hash,delivery|
-          hash[delivery.brand] ||= Mix.new
 
-          case delivery.package_size
-          when '1/2'
-            hash[delivery.brand].half += delivery.quantity
-          when '1/4'
-            hash[delivery.brand].quarter += delivery.quantity
-          when '1/6'
-            hash[delivery.brand].sixtel += delivery.quantity
-          when 'case'
-            hash[delivery.brand].kase += delivery.quantity
+          if delivery.route == route
+            hash[delivery.brand] ||= Mix.new
+
+            case delivery.package_size
+            when '1/2'
+              hash[delivery.brand].half += delivery.quantity
+            when '1/4'
+              hash[delivery.brand].quarter += delivery.quantity
+            when '1/6'
+              hash[delivery.brand].sixtel += delivery.quantity
+            when 'Case'
+              hash[delivery.brand].kase += delivery.quantity
+            else
+              raise "Unknown package size #{delivery.package_size}"
+            end
           end
           hash
         end
