@@ -1,145 +1,120 @@
 #!/usr/bin/env ruby
 
-require 'nokogiri'
+require 'nrb/beerxml'
 
 module NRB
-  class BeerXML
 
-    class Parser
-      attr_reader :reader
+  module AddableAmount
+    def +(other)
+      result = dup
+      result.amount += other.amount
+      result
+    end
+  end
 
-      def ingredient_types; %W( FERMENTABLES/FERMENTABLE HOPS/HOP MISCS/MISC ); end
+  module ComparableName
+    include Comparable
+    def <=>(other)
+      name <=> other.name
+    end
+  end
 
 
-      def initialize( reader: Nokogiri::XML, results_class: NRB::BeerXML::Ingredient )
-        @reader = reader
-        @results_class = results_class
-      end
+  module BeerXML
+    class Hop;         include AddableAmount; include ComparableName; end
+    class Fermentable; include AddableAmount; include ComparableName; end
+    class Misc;        include AddableAmount; include ComparableName; end
+    class Yeast;       include AddableAmount; include ComparableName; end
+  end
 
 
-      def parse(file: nil)
-        doc = parse_xml(file)
-        results = []
+  class Presenter
 
-        ingredient_types.each do |ingredient_type|
-          doc.xpath("//#{ingredient_type}").each do |ingredients|
-            results << @results_class.new( amount: ingredients.%("AMOUNT").content, name: ingredients.%("NAME").content )
-          end
-        end
-        results
-      end
+    attr_reader :tallier
 
-    private
-
-      def parse_xml(file)
-        f = File.open(file)
-        doc = reader.parse(f)
-        f.close
-        doc
-      end
-
+    def initialize(tallier: Tallier.new)
+      @tallier = tallier
     end
 
 
-
-    class Ingredient
-
-      include Comparable
-
-      attr_accessor :amount, :name
-
-      def <=>(other)
-         [name, amount] <=> [other.name, other.amount]
+    def present
+      tallier.results.sort.each do |result|
+        printf "%.3f %s\n", result.amount, result.name
       end
-
-
-      def +(other)
-        raise ArgumentError "Trying to add different ingredients" unless eq(other)
-        self.class.new amount: (amount + other.amount),
-                       name: name
-      end
-
-
-      def eq(other)
-        @name == other.name
-      end
-
-
-      def initialize(hash={})
-        @amount = hash[:amount].to_f
-        @name = hash[:name]
-      end
-
-
-      def to_s; "#{amount} #{name}"; end
-
-    end
-
-
-    class Presenter
-
-      attr_reader :tallier
-
-      def initialize(tallier: Tallier.new)
-        @tallier = tallier
-      end
-
-
-      def present
-        tallier.results.sort.each do |result|
-          puts "#{result.amount} #{result.name}"
-        end
-      end
-
-    end
-
-
-    class Tallier
-
-      attr_reader :results
-
-      def initialize
-        @results = []
-      end
-
-
-      def tally(items: [])
-        # Not thread-safe !hah!
-        items.each do |item|
-          pos = pos_in_results(item)
-          if pos == -1
-           @results << item
-          else
-            @results[pos] += item
-          end
-        end
-      end
-
-    private
-
-      def pos_in_results(item)
-        @results.each_with_index do |result,i|
-          if item.eq(result)
-            return i
-          end
-        end
-        -1
-      end
-
     end
 
   end
+
+
+  class Tallier
+
+    include NRB::BeerXML::Inflector
+
+    attr_reader :results
+
+    def initialize
+      @results = []
+    end
+
+
+    def tally(items: [])
+      items.each do |item|
+        meth = "tally_" + underscore(item.class.name.split(/::/).last)
+        respond_to?(meth,true) && send(meth, item)
+      end
+    end
+
+  private
+
+    def pos_in_results(item)
+      @results.each_with_index do |result,i|
+        if item.name == result.name
+          return i
+        end
+      end
+      -1
+    end
+
+
+    def tally_item(item)
+      # Not thread-safe !hah!
+      pos = pos_in_results(item)
+      if pos == -1
+        @results << item.dup
+      else
+        @results[pos] += item
+      end
+    end
+    alias_method :tally_fermentable, :tally_item
+    alias_method :tally_hop, :tally_item
+    alias_method :tally_misc, :tally_item
+
+
+    def tally_items(items)
+      items.each do |item|
+        tally_item item
+      end
+    end
+
+
+    def tally_recipe(recipe)
+      %i( fermentables hops miscs yeasts ).each do |ingredient|
+        tally_items recipe.send(ingredient)
+      end
+    end
+
+  end
+
 end
 
 
 parser = NRB::BeerXML::Parser.new
-tallier = NRB::BeerXML::Tallier.new
+tallier = NRB::Tallier.new
 
 ARGV.each do |arg|
-
-  ingredients = parser.parse(file: arg)
+  ingredients = parser.parse(arg)
   tallier.tally items: ingredients
 end
 
-presenter = NRB::BeerXML::Presenter.new tallier: tallier
+presenter = NRB::Presenter.new tallier: tallier
 presenter.present
