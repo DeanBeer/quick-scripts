@@ -18,13 +18,21 @@ module NRB
       private
 
         def brand(string)
-          name = string.split(/:/)[2]
-          name.sub!(KEG_SIZE_REGEXP, '')
-          name.sub!(/can case/i, '')
-          name.sub!(/case - /i, '')
-          name.sub!(/ 12x22oz/i, '')
-          name.sub!(/^\s+|\s+$/, '')
-          name
+          brands_with_expressions.each_pair.find do |name,exp|
+            string.downcase =~ exp
+          end.first
+        end
+
+
+        def brands_with_expressions
+          { 'Dammit Jim!' => /dammit/i,
+            'Kadigan'     => /kadigan/i,
+            'Seasonal'    => /seasonal/i,
+            'Skylight'    => /skylight/i,
+            'Warimono'    => /wari/i,
+            'Whipsaw'     => /whipsaw/i,
+            'Windlass'    => /windlass/i
+          }
         end
 
 

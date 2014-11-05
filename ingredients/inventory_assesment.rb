@@ -6,6 +6,7 @@ module NRB
 
   module AddableAmount
     def +(other)
+#      raise "Don't have an amount" unless respond_to?(:amount) && other.respond_to?(:amount)
       result = dup
       result.amount += other.amount
       result
@@ -15,6 +16,7 @@ module NRB
   module ComparableName
     include Comparable
     def <=>(other)
+#      raise "Don't have an name" unless respond_to?(:name) && other.respond_to?(:name)
       name <=> other.name
     end
   end
@@ -39,7 +41,7 @@ module NRB
 
     def present
       tallier.results.sort.each do |result|
-        printf "%.3f %s\n", result.amount, result.name
+        printf "%8.2f %s\n", result.amount, result.name
       end
     end
 
