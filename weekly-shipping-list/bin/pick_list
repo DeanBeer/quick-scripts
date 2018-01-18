@@ -1,13 +1,12 @@
 #!/usr/bin/env ruby
 
-$:.unshift(File.join( File.dirname(__FILE__), '..'))
-require 'nrb'
+lib = File.expand_path '../../lib', __FILE__
+$LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
-pick_list = NRB::PickList.new
+require 'nrb/support'
+require 'nrb/delivery_pick_list'
+
+pick_list = NRB::DeliveryPickList.new
 
 ARGV.each do |arg|
-  results = pick_list.parse str: File.read(arg)
-  pick_list.tally results
 end
-
-pick_list.present

@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Skylight 52</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Cameron</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>1408.1812992</BATCH_SIZE>
+ <BOIL_SIZE>1587.7244148</BOIL_SIZE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <EFFICIENCY>80.0000000</EFFICIENCY>
+ <HOPS>
+<HOP>
+ <NAME>Hallertauer</NAME>
+ <VERSION>1</VERSION>
+ <ORIGIN>Germany</ORIGIN>
+ <ALPHA>3.1000000</ALPHA>
+ <AMOUNT>1.1495170</AMOUNT>
+ <USE>First Wort</USE>
+ <TIME>90.0000000</TIME>
+ <NOTES>Used for: German Ales, German/US/Canadian Lagers, Wheat Beers
+Aroma: Pleasant, mild spicy flavor, clean, neutral flavor
+Substitutes: Crystal, Liberty, Hallertauer Mittelfrueh</NOTES>
+ <TYPE>Aroma</TYPE>
+ <FORM>Pellet</FORM>
+ <BETA>4.0000000</BETA>
+ <HSI>50.0000000</HSI>
+ <DISPLAY_AMOUNT>1150 g</DISPLAY_AMOUNT>
+ <INVENTORY>0 g</INVENTORY>
+ <DISPLAY_TIME>90.0 min</DISPLAY_TIME>
+</HOP>
+</HOPS>
+
+ <FERMENTABLES>
+<FERMENTABLE>
+ <NAME>White Wheat Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>159.9998969</AMOUNT>
+ <YIELD>86.0000000</YIELD>
+ <COLOR>2.4000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>White wheat gives a malty flavor not available from raw wheat.
+Used in Weiss, Wit and White beers</NOTES>
+ <COARSE_FINE_DIFF>2.2000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>130.0000000</DIASTATIC_POWER>
+ <PROTEIN>14.5000000</PROTEIN>
+ <MAX_IN_BATCH>60.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>160.0 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 kg</INVENTORY>
+ <POTENTIAL>1.0395600</POTENTIAL>
+ <DISPLAY_COLOR>2.4 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Wheat Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Munich Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>82.2856613</AMOUNT>
+ <YIELD>80.0000000</YIELD>
+ <COLOR>9.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Malty-sweet flavor characteristic and adds a reddish amber color to the beer.
+Does not contribute signficantly to body or head retention.
+Use for: Bock, Porter, Marzen, Oktoberfest beers</NOTES>
+ <COARSE_FINE_DIFF>1.3000000</COARSE_FINE_DIFF>
+ <MOISTURE>5.0000000</MOISTURE>
+ <DIASTATIC_POWER>72.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.5000000</PROTEIN>
+ <MAX_IN_BATCH>80.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>82.3 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 kg</INVENTORY>
+ <POTENTIAL>1.0368000</POTENTIAL>
+ <DISPLAY_COLOR>9.0 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Amber Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Pilsner (2 Row) Ger</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>36.5476084</AMOUNT>
+ <YIELD>81.0000000</YIELD>
+ <COLOR>2.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>German base for Pilsners and Bohemian Lagers</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>110.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.0000000</PROTEIN>
+ <MAX_IN_BATCH>100.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>36.5 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 kg</INVENTORY>
+ <POTENTIAL>1.0372600</POTENTIAL>
+ <DISPLAY_COLOR>2.0 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE>Pilsner Liquid Extract</EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Special B Malt</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>21.1381831</AMOUNT>
+ <YIELD>65.2000000</YIELD>
+ <COLOR>180.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Belgium</ORIGIN>
+ <SUPPLIER></SUPPLIER>
+ <NOTES>Extreme caramel aroma and flavored malt.  Used in dark Belgian Abbey and Trappist ales.  Unique flavor and aroma.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>0.0000000</PROTEIN>
+ <MAX_IN_BATCH>10.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>TRUE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>21.1 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 kg</INVENTORY>
+ <POTENTIAL>1.0299920</POTENTIAL>
+ <DISPLAY_COLOR>180.0 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Caramel/Crystal Malt - 45L</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>7.6543151</AMOUNT>
+ <YIELD>74.0000000</YIELD>
+ <COLOR>45.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>US</ORIGIN>
+ <SUPPLIER>Crisp</SUPPLIER>
+ <NOTES>Adds body, color and improves head retention.
+Also called &#34;Crystal&#34; malt.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>13.2000000</PROTEIN>
+ <MAX_IN_BATCH>20.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>7.7 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 kg</INVENTORY>
+ <POTENTIAL>1.0340400</POTENTIAL>
+ <DISPLAY_COLOR>45.0 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+<FERMENTABLE>
+ <NAME>Carafa II</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Grain</TYPE>
+ <AMOUNT>2.1869472</AMOUNT>
+ <YIELD>70.0000000</YIELD>
+ <COLOR>412.0000000</COLOR>
+ <ADD_AFTER_BOIL>FALSE</ADD_AFTER_BOIL>
+ <ORIGIN>Germany</ORIGIN>
+ <SUPPLIER>Weyermann</SUPPLIER>
+ <NOTES>Used to intensify aroma and color in dark, Munich beers and stouts.</NOTES>
+ <COARSE_FINE_DIFF>1.5000000</COARSE_FINE_DIFF>
+ <MOISTURE>4.0000000</MOISTURE>
+ <DIASTATIC_POWER>0.0000000</DIASTATIC_POWER>
+ <PROTEIN>11.7000000</PROTEIN>
+ <MAX_IN_BATCH>5.0000000</MAX_IN_BATCH>
+ <RECOMMEND_MASH>FALSE</RECOMMEND_MASH>
+ <IBU_GAL_PER_LB>0.0000000</IBU_GAL_PER_LB>
+ <DISPLAY_AMOUNT>2.2 kg</DISPLAY_AMOUNT>
+ <INVENTORY>0.0 kg</INVENTORY>
+ <POTENTIAL>1.0322000</POTENTIAL>
+ <DISPLAY_COLOR>412.0 SRM</DISPLAY_COLOR>
+ <EXTRACT_SUBSTITUTE></EXTRACT_SUBSTITUTE>
+</FERMENTABLE>
+</FERMENTABLES>
+
+ <MISCS>
+<MISC>
+ <NAME>Calcium Chloride</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.292571</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Alters water profile and pH of mash.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>292.57 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>0.16 Barrel</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Gypsum (Calcium Sulfate)</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.050286</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Reduces PH of water for mashing and sparging.   Alters water profile -- used to harden soft water.  Use the BeerSmith Water Profile tool to determine amount to add.</NOTES>
+ <DISPLAY_AMOUNT>50.29 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>0.16 Barrel</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Baking Soda</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Water Agent</TYPE>
+ <USE>Mash</USE>
+ <AMOUNT>0.036571</AMOUNT>
+ <TIME>60.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Water Agent</USE_FOR>
+ <NOTES>Baking Soda (NaHCO3) may be used as a water mineral to adjust brewing water for mashing.</NOTES>
+ <DISPLAY_AMOUNT>36.57 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>60.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>0.16 Barrel</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Fermcap S</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.045714</AMOUNT>
+ <TIME>91.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR></USE_FOR>
+ <NOTES></NOTES>
+ <DISPLAY_AMOUNT>45.71 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>91.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>10.00 Barrel</BATCH_SIZE>
+</MISC>
+<MISC>
+ <NAME>Whirlfloc G</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Fining</TYPE>
+ <USE>Boil</USE>
+ <AMOUNT>0.058286</AMOUNT>
+ <TIME>15.00</TIME>
+ <AMOUNT_IS_WEIGHT>TRUE</AMOUNT_IS_WEIGHT>
+ <USE_FOR>Clarity</USE_FOR>
+ <NOTES>Aids in clearing yeast and chill haze.  Easy to use tablet form.</NOTES>
+ <DISPLAY_AMOUNT>58.29 g</DISPLAY_AMOUNT>
+ <INVENTORY>0.00 g</INVENTORY>
+ <DISPLAY_TIME>15.0 mins</DISPLAY_TIME>
+ <BATCH_SIZE>1.00 Barrel</BATCH_SIZE>
+</MISC>
+</MISCS>
+
+ <YEASTS>
+<YEAST>
+ <NAME>Weihenstephan Weizen</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Wheat</TYPE>
+ <FORM>Liquid</FORM>
+ <AMOUNT>0.1242095</AMOUNT>
+ <AMOUNT_IS_WEIGHT>FALSE</AMOUNT_IS_WEIGHT>
+ <LABORATORY></LABORATORY>
+ <PRODUCT_ID>3068</PRODUCT_ID>
+ <MIN_TEMPERATURE>17.7777778</MIN_TEMPERATURE>
+ <MAX_TEMPERATURE>23.8888889</MAX_TEMPERATURE>
+ <FLOCCULATION>Low</FLOCCULATION>
+ <ATTENUATION>75.0000000</ATTENUATION>
+ <NOTES>Pitching rate 7*10^5 cells/ml/P</NOTES>
+ <BEST_FOR></BEST_FOR>
+ <MAX_REUSE>25</MAX_REUSE>
+ <TIMES_CULTURED>2</TIMES_CULTURED>
+ <ADD_TO_SECONDARY>FALSE</ADD_TO_SECONDARY>
+ <DISPLAY_AMOUNT>124 ml</DISPLAY_AMOUNT>
+ <DISP_MIN_TEMP>64.0 F</DISP_MIN_TEMP>
+ <DISP_MAX_TEMP>75.0 F</DISP_MAX_TEMP>
+ <INVENTORY>20.0 pkg</INVENTORY>
+ <CULTURE_DATE>2003-06-14</CULTURE_DATE>
+</YEAST>
+</YEASTS>
+
+ <WATERS>
+<WATER>
+ <NAME>Skylight</NAME>
+ <VERSION>1</VERSION>
+ <AMOUNT>1712.8586803</AMOUNT>
+ <CALCIUM>50.0000000</CALCIUM>
+ <BICARBONATE>15.0000000</BICARBONATE>
+ <SULFATE>16.0000000</SULFATE>
+ <CHLORIDE>80.0000000</CHLORIDE>
+ <SODIUM>4.0000000</SODIUM>
+ <MAGNESIUM>0.0000000</MAGNESIUM>
+ <PH>7.0000000</PH>
+ <NOTES>https://sites.google.com/site/brunwater/water-knowledge</NOTES>
+ <DISPLAY_AMOUNT>14.60 Barrel</DISPLAY_AMOUNT>
+</WATER>
+</WATERS>
+
+ <STYLE>
+ <NAME>Dunkelweizen</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>German Wheat and Rye Beer</CATEGORY>
+ <CATEGORY_NUMBER>15</CATEGORY_NUMBER>
+ <STYLE_LETTER>B</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>10.9157088</OG_MIN>
+ <OG_MAX>13.7348485</OG_MAX>
+ <FG_MIN>2.5643564</FG_MIN>
+ <FG_MAX>3.5759369</FG_MAX>
+ <IBU_MIN>10.0000000</IBU_MIN>
+ <IBU_MAX>18.0000000</IBU_MAX>
+ <COLOR_MIN>14.0000000</COLOR_MIN>
+ <COLOR_MAX>23.0000000</COLOR_MAX>
+ <CARB_MIN>2.5000000</CARB_MIN>
+ <CARB_MAX>2.9000000</CARB_MAX>
+ <ABV_MAX>5.6000000</ABV_MAX>
+ <ABV_MIN>4.3000000</ABV_MIN>
+ <NOTES>A moderately dark, spicy, fruity, malty, refreshing wheat-based ale. Reflecting the best yeast and wheat character of a hefeweizen blended with the malty richness of a Munich dunkel. Old-fashioned Bavarian wheat beer was often dark. In the 1950s and 1960s, wheat beers did not have a youthful image, since most older people drank them for their healthgiving qualities. Today, the lighter hefeweizen is more common. The presence of Munich and/or Vienna-type barley malts gives this style a deep, rich barley malt character not found in a hefeweizen. Bottles with yeast are traditionally swirled or gently rolled prior to serving.</NOTES>
+ <PROFILE>Aroma: Moderate to strong phenols (usually clove) and fruity esters (usually banana). The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Optionally, a low to moderate vanilla character and/or low bubblegum notes may be present, but should not dominate. Noble hop character ranges from low to none. A light to moderate wheat aroma (which might be perceived as bready or grainy) may be present and is often accompanied by a caramel, bread crust, or richer malt aroma (e.g., from Vienna and/or Munich malt). Any malt character is supportive and does not overpower the yeast character. No diacetyl or DMS. A light tartness is optional but acceptable.
+Appearance: Light copper to mahogany brown in color. A very thick, moussy, long-lasting off-white head is characteristic. The high protein content of wheat impairs clarity in this traditionally unfiltered style, although the level of haze is somewhat variable. The suspended yeast sediment (which should be roused before drinking) also contributes to the cloudiness.
+Flavor: Low to moderately strong banana and clove flavor. The balance and intensity of the phenol and ester components can vary but the best examples are reasonably balanced and fairly prominent. Optionally, a very light to moderate vanilla character and/or low bubblegum notes can accentuate the banana flavor, sweetness and roundness; neither should be dominant if present. The soft, somewhat bready or grainy flavor of wheat is complementary, as is a richer caramel and/or melanoidin character from Munich and/or Vienna malt. The malty richness can be low to medium-high, but shouldn&#8217;t overpower the yeast character. A roasted malt character is inappropriate. Hop flavor is very low to none, and hop bitterness is very low to low. A tart, citrusy character from yeast and high carbonation is sometimes present, but typically muted. Well rounded, flavorful, often somewhat sweet palate with a relatively dry finish. No diacetyl or DMS.
+Mouthfeel: Medium-light to medium-full body. The texture of wheat as well as yeast in suspension imparts the sensation of a fluffy, creamy fullness that may progress to a lighter finish, aided by moderate to high carbonation. The presence of Munich and/or Vienna malts also provide an additional sense of richness and fullness. Effervescent.</PROFILE>
+ <INGREDIENTS>By German law, at least 50% of the grist must be malted wheat, although some versions use up to 70%; the remainder is usually Munich and/or Vienna malt. A traditional decoction mash gives the appropriate body without cloying sweetness. Weizen ale yeasts produce the typical spicy and fruity character, although extreme fermentation temperatures can affect the balance and produce off-flavors. A small amount of noble hops are used only for bitterness.</INGREDIENTS>
+ <EXAMPLES>Weihenstephaner Hefeweissbier Dunkel, Ayinger Ur-Weisse, Franziskaner Dunkel Hefe-Weisse, Schneider Weisse (Original), Ettaler Weissbier Dunkel, Hacker-Pschorr Weisse Dark, Tucher Dunkles Hefe Weizen, Edelweiss Dunkel Weissbier, Erdinger Weissbier Dunkel, Kapuziner Weissbier Schwarz</EXAMPLES>
+ <DISPLAY_OG_MIN>10.9 Plato</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>13.7 Plato</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>2.6 Plato</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>3.6 Plato</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>14.0 SRM</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>23.0 SRM</DISPLAY_COLOR_MAX>
+ <OG_RANGE>10.9-13.7 Plato</OG_RANGE>
+ <FG_RANGE>2.6-3.6 Plato</FG_RANGE>
+ <IBU_RANGE>10.0-18.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.50-2.90 Vols</CARB_RANGE>
+ <COLOR_RANGE>14.0-23.0 SRM</COLOR_RANGE>
+ <ABV_RANGE>4.30-5.60 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>20 BBL</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>1587.7244148</BOIL_SIZE>
+ <BATCH_SIZE>1408.1812992</BATCH_SIZE>
+ <TUN_VOLUME>2271.2601600</TUN_VOLUME>
+ <TUN_WEIGHT>299.9998067</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.1200000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>0.0000000</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>5.1736881</EVAP_RATE>
+ <BOIL_TIME>90.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>64.3523712</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>120.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Losses:
+15 gal yeast
+5 gal transfer to brite
+5 gal packaging</NOTES>
+ <DISPLAY_BOIL_SIZE>13.53 Barrel</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>12.00 Barrel</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>19.35 Barrel</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>300.0 kg</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 Barrel</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>0.00 Barrel</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.55 Barrel</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 Barrel</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Skylight</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>23.8888889</GRAIN_TEMP>
+ <TUN_TEMP>23.8888889</TUN_TEMP>
+ <SPARGE_TEMP>81.1111111</SPARGE_TEMP>
+ <PH>5.2000000</PH>
+ <TUN_WEIGHT>10582.1904000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.1200000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>TRUE</EQUIP_ADJUST>
+ <NOTES></NOTES>
+ <DISPLAY_GRAIN_TEMP>75.0 F</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>75.0 F</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>178.0 F</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>300.0 kg</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Dough in</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>805.5133103</INFUSE_AMOUNT>
+ <STEP_TIME>0.0000000</STEP_TIME>
+ <STEP_TEMP>42.7777778</STEP_TEMP>
+ <RAMP_TIME>20.0000000</RAMP_TIME>
+ <END_TEMP>42.7777778</END_TEMP>
+ <DESCRIPTION>Add 6.86 Barrel of water at 114.8 F</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.246 qt/lb</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 Barrel</DECOCTION_AMT>
+ <INFUSE_TEMP>114.8 F</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>109.0 F</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>6.86 Barrel</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Acid</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Temperature</TYPE>
+ <INFUSE_AMOUNT>-0.0000000</INFUSE_AMOUNT>
+ <STEP_TIME>20.0000000</STEP_TIME>
+ <STEP_TEMP>42.7777778</STEP_TEMP>
+ <RAMP_TIME>0.0000000</RAMP_TIME>
+ <END_TEMP>42.7777778</END_TEMP>
+ <DESCRIPTION>Heat to 109.0 F over 0 min</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.246 qt/lb</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 Barrel</DECOCTION_AMT>
+ <INFUSE_TEMP>109.0 F</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>109.0 F</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>0.00 Barrel</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Sacc</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Temperature</TYPE>
+ <INFUSE_AMOUNT>0.0000000</INFUSE_AMOUNT>
+ <STEP_TIME>30.0000000</STEP_TIME>
+ <STEP_TEMP>68.3333333</STEP_TEMP>
+ <RAMP_TIME>60.0000000</RAMP_TIME>
+ <END_TEMP>68.3333333</END_TEMP>
+ <DESCRIPTION>Heat to 155.0 F over 60 min</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.246 qt/lb</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 Barrel</DECOCTION_AMT>
+ <INFUSE_TEMP>155.0 F</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>155.0 F</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>0.00 Barrel</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+<MASH_STEP>
+ <NAME>Vorlauff &#38; Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Temperature</TYPE>
+ <INFUSE_AMOUNT>0.0000000</INFUSE_AMOUNT>
+ <STEP_TIME>10.0000000</STEP_TIME>
+ <STEP_TEMP>76.6666667</STEP_TEMP>
+ <RAMP_TIME>30.0000000</RAMP_TIME>
+ <END_TEMP>76.6666667</END_TEMP>
+ <DESCRIPTION>Heat to 170.0 F over 30 min</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.246 qt/lb</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 Barrel</DECOCTION_AMT>
+ <INFUSE_TEMP>170.0 F</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>170.0 F</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>0.00 Barrel</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>0.0000000</OG>
+ <FG>0.0000000</FG>
+ <CARBONATION>2.8000000</CARBONATION>
+ <FERMENTATION_STAGES>1</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>22.2222222</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>18.3333333</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>17.0000000</AGE>
+ <AGE_TEMP>1.6666667</AGE_TEMP>
+ <CARBONATION_USED>Keg with 12.15 PSI</CARBONATION_USED>
+ <FORCED_CARBONATION>FALSE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Corn Sugar</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>1.1111111</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>34.0 F</DISPLAY_CARB_TEMP>
+ <DATE>2015-05-11</DATE>
+ <EST_OG>13.6 Plato</EST_OG>
+ <EST_FG>3.8 Plato</EST_FG>
+ <EST_COLOR>17.8 SRM</EST_COLOR>
+ <IBU>12.0 IBUs</IBU>
+ <IBU_METHOD>Rager</IBU_METHOD>
+ <EST_ABV>5.3 %</EST_ABV>
+ <ABV>0.0 %</ABV>
+ <ACTUAL_EFFICIENCY>0.0 %</ACTUAL_EFFICIENCY>
+ <CALORIES>-1.4 kcal/12oz</CALORIES>
+ <DISPLAY_BATCH_SIZE>12.00 Barrel</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>13.53 Barrel</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>0.0 Plato</DISPLAY_OG>
+ <DISPLAY_FG>0.0 Plato</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>72.0 F</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>65.0 F</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>65.0 F</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>35.0 F</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>
